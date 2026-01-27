@@ -41,8 +41,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 plt.style.use('seaborn-v0_8-whitegrid')
 
-print("ECG HEARTBEAT CLASSIFICATION - COMPETITION NOTEBOOK")
-print("HARDWARE CONFIGURATION")
+print("ECG HEARTBEAT CLASSIFICATION")
 
 # Check GPU availability
 gpus = tf.config.list_physical_devices('GPU')
